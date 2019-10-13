@@ -2,6 +2,9 @@ require('dotenv').config();
 const fsPromises = require(`fs`).promises;
 const path = require(`path`);
 
+
+// https://www.npmjs.com/package/directory-tree -> Creezi un obiect JS dintr-un director.
+
 /**
  * Clasa creează un obiect al cărui metode pot fi folosite pentru a crea Bag-uri și a le modifica
  */
